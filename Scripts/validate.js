@@ -19,8 +19,6 @@ function isEmpty(email,name) {
 function validate() {
   var email = document.getElementById("EMAIL").value;
   var name = document.getElementById("NAME").value;
-  console.log(email);
-  console.log(name);
   isEmpty(email,name);
   }
 
